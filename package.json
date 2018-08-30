@@ -1,5 +1,5 @@
 {
-  "name": "webpack-web",
+  "name": "webpack-multi-page",
   "version": "1.0.0",
   "description": "webpack多页面应用开发脚手架",
   "main": "index.js",
