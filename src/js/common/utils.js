@@ -14,13 +14,13 @@ export function sum(x, y) {
 export var PI = 3.1415926;
 
 const menu = [{
-    name: '首页',
+    name: 'Index',
     linkUrl: 'index.html'
 }, {
-    name: '公司简介',
+    name: 'Home',
     linkUrl: 'home.html'
 }, {
-    name: '关于我们',
+    name: 'About',
     linkUrl: 'about.html'
 }]
 

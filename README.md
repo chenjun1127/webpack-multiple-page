@@ -1,6 +1,6 @@
 ## webpack-multi-page
 
-webpack多页面开发脚手架，webpack+webpack-dev-server+es6+sass;
+webpack多页面开发脚手架，webpack+webpack-dev-server+es6+sass+pug;
 
 ### Install
 ```bash

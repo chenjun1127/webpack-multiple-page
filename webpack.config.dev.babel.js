@@ -18,20 +18,17 @@ const webpackConfig = {
             loader: 'babel-loader',
         }, {
             test: /\.(scss|css)$/,
+            use: ['style-loader', 'css-loader', 'sass-loader', 'postcss-loader']
+        }, {
+            test: /\.pug/,
             use: [{
-                loader: 'style-loader',
-            }, {
-                loader: 'css-loader'
-            }, {
-                loader: 'sass-loader'
-            }, {
-                loader: 'postcss-loader'
+                loader: 'pug-loader'
             }]
         }, {
             test: /\.(png|svg|jpg|gif)$/,
             use: [{
                 loader: 'file-loader',
-                options: { name: 'images/[name].[ext]?[hash]'}
+                options: { name: 'images/[name].[ext]?[hash]' }
             }]
         }]
     },
@@ -68,7 +65,7 @@ Object.keys(entries()).forEach(function(name) {
         // 生成出来的html文件名
         filename: name + '.html',
         // 每个html的模版，这里多个页面使用同一个模版
-        template: './src/' + name + '.html',
+        template: './src/views/' + name + '.pug',
         title: name,
         // 自动将引用插入html
         inject: true,

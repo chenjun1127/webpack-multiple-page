@@ -25,6 +25,8 @@
     "node-sass": "^4.9.3",
     "optimize-css-assets-webpack-plugin": "^5.0.0",
     "postcss-loader": "^3.0.0",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "webpack": "^4.17.1",
